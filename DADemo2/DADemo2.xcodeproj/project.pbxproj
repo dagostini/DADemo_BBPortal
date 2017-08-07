@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7719F70D1F391C7700025096 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7719F70C1F391C7700025096 /* AppDelegate.swift */; };
+		7719F70F1F391C7700025096 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7719F70E1F391C7700025096 /* ViewController.swift */; };
+		7719F7121F391C7700025096 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7719F7101F391C7700025096 /* Main.storyboard */; };
+		7719F7141F391C7700025096 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7719F7131F391C7700025096 /* Assets.xcassets */; };
+		7719F7171F391C7700025096 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7719F7151F391C7700025096 /* LaunchScreen.storyboard */; };
+		C004FFE2452CB9AB128FBB53 /* Pods_DADemo2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A88425DB32CADC81D9402A /* Pods_DADemo2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26218FBFD20CB9A217E367D6 /* Pods-DADemo2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DADemo2.release.xcconfig"; path = "Pods/Target Support Files/Pods-DADemo2/Pods-DADemo2.release.xcconfig"; sourceTree = "<group>"; };
+		7719F7091F391C7700025096 /* DADemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DADemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7719F70C1F391C7700025096 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7719F70E1F391C7700025096 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7719F7111F391C7700025096 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7719F7131F391C7700025096 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7719F7161F391C7700025096 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7719F7181F391C7700025096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7719F71E1F391CCD00025096 /* DADemo2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DADemo2.entitlements; sourceTree = "<group>"; };
+		D1A88425DB32CADC81D9402A /* Pods_DADemo2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DADemo2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF38AAE0E06ED265BDC930C0 /* Pods-DADemo2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DADemo2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DADemo2/Pods-DADemo2.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7719F7061F391C7700025096 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C004FFE2452CB9AB128FBB53 /* Pods_DADemo2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7719F7001F391C7700025096 = {
+			isa = PBXGroup;
+			children = (
+				7719F70B1F391C7700025096 /* DADemo2 */,
+				7719F70A1F391C7700025096 /* Products */,
+				C8B60AA9C65F72994709AD6F /* Pods */,
+				F76AB299897B8DECAB57B148 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7719F70A1F391C7700025096 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7719F7091F391C7700025096 /* DADemo2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7719F70B1F391C7700025096 /* DADemo2 */ = {
+			isa = PBXGroup;
+			children = (
+				7719F71E1F391CCD00025096 /* DADemo2.entitlements */,
+				7719F70C1F391C7700025096 /* AppDelegate.swift */,
+				7719F70E1F391C7700025096 /* ViewController.swift */,
+				7719F7101F391C7700025096 /* Main.storyboard */,
+				7719F7131F391C7700025096 /* Assets.xcassets */,
+				7719F7151F391C7700025096 /* LaunchScreen.storyboard */,
+				7719F7181F391C7700025096 /* Info.plist */,
+			);
+			path = DADemo2;
+			sourceTree = "<group>";
+		};
+		C8B60AA9C65F72994709AD6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF38AAE0E06ED265BDC930C0 /* Pods-DADemo2.debug.xcconfig */,
+				26218FBFD20CB9A217E367D6 /* Pods-DADemo2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F76AB299897B8DECAB57B148 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1A88425DB32CADC81D9402A /* Pods_DADemo2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7719F7081F391C7700025096 /* DADemo2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7719F71B1F391C7700025096 /* Build configuration list for PBXNativeTarget "DADemo2" */;
+			buildPhases = (
+				5B0E0647E47F48E1E6111C19 /* [CP] Check Pods Manifest.lock */,
+				7719F7051F391C7700025096 /* Sources */,
+				7719F7061F391C7700025096 /* Frameworks */,
+				7719F7071F391C7700025096 /* Resources */,
+				A893741370DEBF5F14A888BB /* [CP] Embed Pods Frameworks */,
+				8CF2AF20B80F8D841407C675 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DADemo2;
+			productName = DADemo2;
+			productReference = 7719F7091F391C7700025096 /* DADemo2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7719F7011F391C7700025096 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Dejan;
+				TargetAttributes = {
+					7719F7081F391C7700025096 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = V7FR7N29C2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 7719F7041F391C7700025096 /* Build configuration list for PBXProject "DADemo2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7719F7001F391C7700025096;
+			productRefGroup = 7719F70A1F391C7700025096 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7719F7081F391C7700025096 /* DADemo2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7719F7071F391C7700025096 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7719F7171F391C7700025096 /* LaunchScreen.storyboard in Resources */,
+				7719F7141F391C7700025096 /* Assets.xcassets in Resources */,
+				7719F7121F391C7700025096 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B0E0647E47F48E1E6111C19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8CF2AF20B80F8D841407C675 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DADemo2/Pods-DADemo2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A893741370DEBF5F14A888BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DADemo2/Pods-DADemo2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7719F7051F391C7700025096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7719F70F1F391C7700025096 /* ViewController.swift in Sources */,
+				7719F70D1F391C7700025096 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7719F7101F391C7700025096 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7719F7111F391C7700025096 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7719F7151F391C7700025096 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7719F7161F391C7700025096 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7719F7191F391C7700025096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7719F71A1F391C7700025096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7719F71C1F391C7700025096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF38AAE0E06ED265BDC930C0 /* Pods-DADemo2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DADemo2/DADemo2.entitlements;
+				DEVELOPMENT_TEAM = V7FR7N29C2;
+				INFOPLIST_FILE = DADemo2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = agostini.tech.DADemo2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7719F71D1F391C7700025096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26218FBFD20CB9A217E367D6 /* Pods-DADemo2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DADemo2/DADemo2.entitlements;
+				DEVELOPMENT_TEAM = V7FR7N29C2;
+				INFOPLIST_FILE = DADemo2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = agostini.tech.DADemo2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7719F7041F391C7700025096 /* Build configuration list for PBXProject "DADemo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7719F7191F391C7700025096 /* Debug */,
+				7719F71A1F391C7700025096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7719F71B1F391C7700025096 /* Build configuration list for PBXNativeTarget "DADemo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7719F71C1F391C7700025096 /* Debug */,
+				7719F71D1F391C7700025096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7719F7011F391C7700025096 /* Project object */;
+}

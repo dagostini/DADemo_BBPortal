@@ -1,0 +1,6 @@
+framework module Pods_DADemo2 {
+  umbrella header "Pods-DADemo2-umbrella.h"
+
+  export *
+  module * { export * }
+}

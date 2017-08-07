@@ -1,0 +1,6 @@
+target 'DADemo1' do
+  use_frameworks!
+  
+  pod 'BBPortal'
+
+end
